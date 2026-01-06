@@ -1,0 +1,293 @@
+<html>
+    <head>
+        <title>Introdução ao HTML</title>
+    </head>
+    <body>
+        <h1>
+            Introdução ao <abbr title="HyperText Markup Language"><mark>HTML</mark></abbr>
+        </h1> 
+        <hr>
+        <h3>
+            Navegação rápida
+        </h3>
+        <ul>
+            <li>
+                <a href="#primordios-da-internet"><strong>Primórdios da Internet</strong></a>
+            </li>
+            <li>
+                <a href="#O-que-sao-tags-em-html"><strong>O que são tags em HTML</strong></a>
+            </li>
+            <li>
+                <a href="#principais-tags-html"><strong>Principais tags HTML</strong></a>
+                <ul>
+                    <li>
+                       <a href="#h1h6">&lt;h1&gt; até &lt;h6&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#p">&lt;p&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#mark">&lt;mark&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#small">&lt;small&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#i">&lt;i&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#u">&lt;u&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#strong">&lt;strong&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#ol">&lt;ol&gt;</a>
+                    </li>
+                    <li>
+                       <a href="#ul"> &lt;ul&gt;</a>
+                    </li>
+                    <li>
+                       <a href="#li"> &lt;li&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#a">&lt;a&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#hr">&lt;hr&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#sub">&lt;sub&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#sup">&lt;sup&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#blockquote">&lt;blockquote&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#font">&lt;font&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#del">&lt;del&gt;</a>
+                    </li>
+                    <li>
+                        <a href="#abbr">&lt;abbr&gt;</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#OBS"><strong>Observações</strong></a>
+            </li>
+            <li>
+            <a href="#referencias"><strong>Referências</strong></a>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="primordios-da-internet">
+           Primórdios da Internet 
+        </h2>
+        <p>
+          A <strong>internet</strong> surgiu a partir de projetos militares e acadêmicos desenvolvidos durante a Guerra Fria. Na década de <strong>1960</strong>, o Departamento de Defesa dos Estados Unidos criou a <abbr title="Advanced Research Projects Agency Network"><strong>ARPANET</strong></abbr>, uma rede experimental que tinha como objetivo permitir a comunicação entre computadores mesmo em caso de falhas em partes da infraestrutura. Com o tempo, universidades e centros de pesquisa passaram a utilizar essa rede, impulsionando seu crescimento.
+        </p>
+        <p>
+           Nas décadas seguintes, novos protocolos foram desenvolvidos, como o <abbr title="Transmission Control Protocol/Internet Protocol"><strong>TCP/IP</strong></abbr>, que se tornaram o padrão de comunicação entre redes. Em <strong>1989</strong>, <u>Tim Berners-Lee</u> propôs a criação da <i>World Wide Web</i> (<small><strong>WWW</strong></small>), introduzindo conceitos como <strong>hipertexto</strong>, <abbr title="Uniform Resource Locator,"><strong>URLs</strong></abbr> e o <abbr title="Hypertext Transfer Protocol"><strong>protocolo HTTP</strong></abbr>. A partir disso, a internet passou a ser amplamente utilizada pelo público, tornando-se uma ferramenta essencial para comunicação, educação, comércio e entretenimento. 
+        </p>
+        <h2 id="O-que-sao-tags-em-html">
+            O que são tags em HTML
+        </h2>
+        <p>
+           <strong>HTML</strong> (<i>HyperText Markup Language</i>) é a linguagem padrão utilizada para estruturar páginas na web. As tags HTML são <strong>elementos</strong> que indicam ao navegador como o conteúdo deve ser interpretado e exibido. Elas funcionam como marcações que definem a função de cada parte do texto, como títulos, parágrafos, listas, links e outros componentes.
+        </p>
+        <p>
+            As tags geralmente são escritas entre sinais de menor e maior (< >) e, na maioria dos casos, possuem uma abertura e um fechamento. Cada tag tem uma função específica dentro da estrutura de uma página.
+        </p>
+        <h2 id="principais-tags-html">
+            Principais tags HTML
+        </h2>
+        <h3 id="h1h6"> 
+            &lt;h1&gt; até &lt;h6&gt; 
+        </h3>
+        <p>
+            São usadas para definir títulos e subtítulos. A tag representa o título mais importante da página, enquanto indica o nível mais baixo de hierarquia. Elas são fundamentais para organização do conteúdo e para acessibilidade.
+        </p>
+        <hr>
+        <h3 id="p">
+            &lt;p&gt;
+        </h3>
+        <p>
+           É utilizada para definir parágrafos. Ela organiza o texto em blocos, facilitando a leitura e a estruturação do conteúdo.
+        </p>
+        <hr>
+        <h3 id="mark">
+            &lt;mark&gt;
+        </h3>
+        <p>
+            Serve para destacar partes do texto, geralmente com um fundo colorido, como se fosse uma marcação com marca-texto.
+        </p>
+        <hr>
+        <h3 id="small">
+            &lt;small&gt;
+        </h3>
+        <p>
+            É usada para textos menores, como observações, notas de rodapé ou informações complementares.
+        </p>
+        <hr>
+        <h3 id="i">
+            &lt;i&gt;
+        </h3>
+        <p>
+            Indica texto em itálico.
+        </p>
+        <hr>
+        <h3 id="u">
+            &lt;u&gt;
+        </h3>
+        <p>
+            Sublinha o texto.
+        </p>
+        <hr>
+        <h3 id="strong">
+            &lt;strong&gt;
+        </h3>
+        <p>
+            Transforma o texto em negrito. 
+        </p>
+        <hr>
+        <h3 id="ol">
+            &lt;ol&gt;
+        </h3>
+        <p>
+            Cria listas ordenadas, nas quais os itens são numerados automaticamente.
+            <ol>
+                <li>
+                    Item 1
+                </li>
+                <li>
+                    Item 2
+                </li>
+                <li>
+                    Item 3
+                </li>
+            </ol>
+        </p>
+        <hr>
+        <h3 id="ul">
+            &lt;ul&gt;
+        </h3>
+        <p>
+            Cria listas não ordenadas, onde os itens são exibidos com marcadores, como pontos ou símbolos.
+            <ul>
+                <li>
+                    Item 1
+                </li>
+                <li>
+                    Item 2
+                </li>
+                <li>
+                    Item 3
+                </li>
+            </ul>
+        </p>
+        <hr>
+        <h3 id="li">
+            &lt;li&gt;
+        </h3>
+        <p>
+            Representa cada item dentro de uma lista, seja ela ordenada () ou não ordenada ().
+        </p>
+        <hr>
+        <h3 id="a">
+            &lt;a&gt;
+        </h3>
+        <p>
+            É utilizada para criar links (âncoras), permitindo a navegação entre páginas, arquivos ou diferentes seções de um site.
+        </p>
+        <hr>
+        <h3 id="hr">
+            &lt;hr&gt;
+        </h3>
+        <p>
+           Insere uma linha horizontal, usada para separar conteúdos ou indicar mudanças de seção. 
+        </p>
+        <hr>
+        <h3 id="sub">
+            &lt;sub&gt;
+        </h3>
+        <p>
+            Define texto subscrito, comumente utilizado em fórmulas químicas ou matemáticas.
+        </p>
+        <p>
+            Exemplo: H<sub>2</sub>O, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>.
+        </p>
+        <hr>
+        <h3 id="sup">
+            &lt;sup&gt;
+        </h3>
+        <p>
+            Define texto sobrescrito, muito usado em potências matemáticas ou referências <a href="#referencias"><sup>[1]</sup></a>.
+        </p>
+        <hr>
+        <h3 id="blockquote">
+            &lt;blockquote&gt;
+        </h3>
+        <p>
+            É usada para indicar citações longas de outras fontes, geralmente com recuo em relação ao texto principal.
+        </p>
+        <p>
+            <blockquote><i>"Talk is cheap. Show me the code" </i>- Linus Torvalds</blockquote> 
+        </p>
+        <hr>
+        <h3 id="font">
+            &lt;font&gt;
+        </h3>
+        <p>
+            É utilizada para definir cor, tamanho e tipo da fonte. Atualmente, ela está obsoleta e não é recomendada, sendo substituída pelo uso de CSS para estilização.
+        </p>
+        <hr>
+        <h3 id="del">
+            &lt;del&gt;
+        </h3>
+        <p>
+          Indica que um texto foi removido ou desconsiderado, geralmente exibindo-o com um risco no meio.  
+        </p>
+        <hr>
+        <h3 id="abbr">
+            &lt;abbr&gt;
+        </h3>
+        <p>
+            É usada para abreviações, permitindo informar o significado completo do termo quando o usuário passa o cursor sobre ele.
+        </p>
+        <hr>
+        <h2 id="OBS">
+            Observações
+        </h2>
+        <p>
+            Ao escrever as tags, o navegador interpreta &lt; &gt; como um código HTML, para que estes caractéres fossem reconhecidos como texto, tive que utilizar &amp;lt; (&lt;) e &amp;gt; (&gt;)
+        </p>
+        <p>
+            Adicionalmente, tive que usar &amp;amp para representar o caractere &amp;, para que o mesmo não seja interpretado como uma entidade HTML (&amp;lt, &amp;gt, &amp;amp, etc)
+        </p>
+        <hr>
+        <h2 id="referencias">
+            Referências
+        </h2>
+        <ul>
+            <li>
+            <a href="https://www.w3.org/" ping="href" target="_blank">W3C - World Wide Web Consortium. Especificações oficiais do HTML.</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML " ping="href" target="_blank">MDN Web Docs (Mozilla). Documentação sobre HTML e desenvolvimento web.</a>
+            </li>
+            <li>
+                <a href="https://home.cern/science/computing/birth-web" ping="href" target="_blank">CERN. Histórico da criação da World Wide Web por Tim Berners-Lee.</a>
+            </li>
+            <li>
+                <a href="https://mail.elginbematech.com.br/processobook/Book%20Bematech%20Fev-2020/Bematech/Leitura%20Online/Livros/127%20-%20Redes%20de%20Computadores%20e%20a%20Internet%20-%20Uma%20abordagem%20Top%20%20Down.pdf" ping="href" target="_blank">Kurose, J. F.; Ross, K. W. <i>Redes de Computadores e a Internet: Uma Abordagem Top-Down</i>.</a>
+            </li>
+            <li>
+                <a href="https://archive.org/details/tanenbaum-rede-de-computadores-6a/mode/2up" ping="href" target="_blank">Tanenbaum, A. S.; Wetherall, D. <i>Redes de Computadores</i>.</a>
+            </li>
+        </ul>
+    </body>
+</html>
